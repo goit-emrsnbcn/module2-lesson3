@@ -1,0 +1,28 @@
+#head-3 {
+    color: turquoise;
+}
+
+.head-3 {
+    color: blue;
+}
+
+h3 {
+    color: brown;
+}
+
+a.link {
+    color: pink;
+    text-decoration: none;
+}
+
+a.link:hover {
+    color: teal;
+    font-size: 20px;
+}
+
+.links:first-child li {
+    color: violet;
+}
+p.parent:first-child em {
+    color: red;
+}

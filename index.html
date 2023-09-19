@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <style>
+            p {
+                /*   property: value;  */
+                color: blue;
+                background-color: green;
+                font-size: 15px;
+                text-align: center;
+            }
+        </style>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <!-- There are 3 ways to apply css in your html 
+            - Inline
+            - Internal / Embedded
+            - External
+        -->
+
+        <!-- Inline CSS  -->
+        <h2 style="color: red; font-size: 30px">Hello World</h2>
+
+        <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti vel adipisci nemo! Esse, totam quisquam consectetur dolorum, corrupti
+            est exercitationem nam, nesciunt itaque quae distinctio ipsa at harum in labore.
+        </p>
+
+        <p style="color: yellow; font-size: 50px">The quick brown fox jumps over the lazy dog</p>
+
+        <p>Hello World 123, Hello World 123</p>
+
+        <h3>Another heading</h3>
+
+        <h3 class="head-3" id="head-3" style="color: violet">Another heading 3</h3>
+        <!--
+            CSS Specificity 
+            inline > id > class > element name
+         -->
+
+        <section class="about">
+            <h2 class="about-title">About Me</h2>
+            <p class="about-text">About me description</p>
+        </section>
+
+        <ul class="links">
+            <li>
+                <a href="#" class="link">Home</a>
+            </li>
+            <li>
+                <a href="#" class="link">About</a>
+            </li>
+            <li>
+                <a href="#" class="link">Contact</a>
+            </li>
+        </ul>
+
+        <p class="parent">The quick brown fox <em>jumps</em> over <em>jumps</em></p>
+    </body>
+</html>
